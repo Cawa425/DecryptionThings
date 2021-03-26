@@ -52,9 +52,15 @@ namespace ConsoleApp1
            return BytePerByteFromHexToHex(Hex.ToHexString(str), Hex.ToHexString(adaptiveKey.ToString())).ToLower();
         }
 
-        public static string SingleByteDecryptWithOutKey(string text)
-        {
-            
-        }
+        // public static string SingleByteDecryptWithOutKey(string text)
+        // {
+        //     return 
+        // }
+        // public static string SingleByteEncrypt(string text, byte key)
+        // {
+        //     byte[] b = Encoding.ASCII.GetBytes(text);
+        //    // byte[] a = Encoding.ASCII.GetBytes(key);
+        //     //return Encoding.ASCII.GetString(b.Select((x,z) => x ^ a[z]));
+        // }
     }
 }

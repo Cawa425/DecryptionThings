@@ -11,3 +11,16 @@ C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Con
 C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Users\cfifr\RiderProjects\DecryptionThings\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

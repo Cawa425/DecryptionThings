@@ -16,14 +16,23 @@ namespace ConsoleApp1
              //Task3();
             //Task4();
             //Task5();
-           
-             Task7();
+            FrequencyTable();
+               
+             //Task7();
             //Task8();
         }
 
-        private void FrequencyTable(string str)
+        public static void FrequencyTable()
         {
             
+            var key = 82;
+            var plain_text =
+                "british troops entered cuxhaven at 1400 on 6 may - from now on all radio traffic will cease - wishing you all the best. lt kunkel.";
+
+            var minFittingQuotient = 0;
+            var temp = Encoding.ASCII.GetBytes(key.ToString());
+            Console.WriteLine();
+            //Xor.SingleByteEncrypt(plain_text,key.ToString());
         }
         public static void Task5() 
         {

@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace ConsoleApp1
 {
-    public class Xor
+    public static class Xor
     {
         public static string XoringTwoBinars(string text,string key)
         {
@@ -28,11 +29,10 @@ namespace ConsoleApp1
             //Соединяем
             var hex = string.Join("",
                 Enumerable
-                    .Range(0, xored.ToString().Length / 8)
+                    .Range(0, xored.Length / 8)
                     .Select(i =>
                         Convert
                             .ToByte(xored
-                                .ToString()
                                 .Substring(i * 8, 8), 2)
                             .ToString("X2")));
             return hex;
@@ -52,9 +52,36 @@ namespace ConsoleApp1
            return BytePerByteFromHexToHex(Hex.ToHexString(str), Hex.ToHexString(adaptiveKey.ToString())).ToLower();
         }
 
-        public static string SingleByteDecryptWithOutKey(string text)
+        public static string SingleByteXorEncrypt(string text,string key)
         {
-            
+            text.ToLower();
+            var keys = Convert.ToByte(key);
+
+            var bytes = Encoding.ASCII.GetBytes(text);
+                var resultBytes = bytes.Select(x=>Convert.ToByte(x^keys)).ToArray();
+
+                var result = Encoding.ASCII.GetString(resultBytes);
+            return result;
         }
+        
+        // public void e(string i)
+        // {
+        //     var a = "";
+        //     foreach (var d in i.ToUpper().GroupBy(x => x).OrderByDescending(u => u.Count()))
+        //     {
+        //         if (d.Key < 91 && d.Key > 64)
+        //         {
+        //             a += d.Key;
+        //         }
+        //     }
+        //     for (int x = 65; x < 91; x++)
+        //     {
+        //         if (!a.Contains((char)x))
+        //         {
+        //             a += (char)x;
+        //         }
+        //     }
+        //     a.Dump();
+        // }Dump
     }
 }

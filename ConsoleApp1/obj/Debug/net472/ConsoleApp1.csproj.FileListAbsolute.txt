@@ -1,0 +1,9 @@
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net472\ConsoleApp1.exe.config
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net472\ConsoleApp1.exe
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net472\ConsoleApp1.pdb
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net472\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net472\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net472\ConsoleApp1.AssemblyInfo.cs
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net472\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net472\ConsoleApp1.exe
+C:\Users\cfifr\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net472\ConsoleApp1.pdb

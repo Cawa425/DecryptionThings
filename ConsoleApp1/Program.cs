@@ -16,13 +16,28 @@ namespace ConsoleApp1
              //Task3();
             //Task4();
             //Task5();
-           
-             Task7();
+            //FrequencyTable();
+            // Task7();
             //Task8();
+            
+            string key = "abcdef0123456789";
+            string iv = "0123456789ABCDEF";
+            string plainText = "1234567890123456";
+            var a = ESB.Encrypt(plainText,key);
+            ESB.Decrypt(a,key);
+            Console.WriteLine();
+            //plainText = "Here is some data to encrypt!";
+            CFB.Test(plainText,key,iv);
+            
+            //OFB.Test(plainText, key, iv);
+
         }
 
-        private void FrequencyTable(string str)
+        public static void FrequencyTable()
         {
+            var text = "aaa";
+            var key = "69";
+            Xor.SingleByteXorEncrypt(text, key);
             
         }
         public static void Task5() 

@@ -22,7 +22,6 @@ namespace ConsoleApp1
 
         public static string FromHexString(string hex)
         {
-            
             return Encoding.ASCII.GetString(FromHexBytes(hex));
         }
         public static byte[] FromHexBytes(string hex)
